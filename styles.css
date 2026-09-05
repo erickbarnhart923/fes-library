@@ -16,7 +16,17 @@ nav {
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 0 24px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.green {
+  color: #4caf50;
+}
+
+.logo {
+  width: 160px;
 }
 
 ul {
@@ -27,4 +37,54 @@ ul {
 li {
   margin: 0 10px;
   list-style-type: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #d800bb;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+  margin: 0 10px;
+  padding: 8px 12px;
+}
+
+.nav__link:hover {
+  color: wheat;
+  border-radius: 4px;
+  text-decoration: underline;
+}
+
+.nav__link--primary {
+  border: 2px solid #01a0bd;
+  background-color: #20001c;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.nav__link--primary:hover {
+  background-color: #01a0bd;
+  color: #274d52;
+  text-decoration: wavy underline;
+} 
+
+#landing {
+ background-color: #3883f52f;
+} 
+
+header {
+  height: calc(100vh - 80px);
+  
+}
+
+.header__container {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
