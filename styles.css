@@ -5,3 +5,26 @@ margin: 0;
 box-sizing: border-box;
 font-family: 'Roboto', sans-serif;
 }
+
+nav {
+  height: 80px;
+  display: flex;
+}
+
+.nav__container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin: 0 10px;
+  list-style-type: none;
+}
