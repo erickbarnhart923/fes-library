@@ -174,12 +174,12 @@ left: 0;
 z-index: 1;
 }
 
-#highlight:after {
+#highlights:after {
   background: url('assets/wave\ \(1\).svg');
   content: "";
   position: absolute;
   width: 101vw;
-  height: 12vw
+  height: 12vw;
 }
 
 .highlight__wrapper {
