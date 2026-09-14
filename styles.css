@@ -163,7 +163,7 @@ LANDING
 } 
 
 header {
-  height: calc(100vh - 80px);
+  min-height: calc(100vh - 80px);
   
 }
 
@@ -415,13 +415,13 @@ padding: 0 8px;
 }
 
 /* SMALL PHONES, TABLETS, LARGE SMART PHONES */
-@media (max_width: 768) {
+@media (max-width: 768px) {
   .header__description {
     padding: 0 24px;
   }
 
   h1 {
-    font: size 40px;
+    font-size: 40px;
   }
 
   h2{
